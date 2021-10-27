@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "application-insights-albinalm-web", "application-insights-albinalm-web\application-insights-albinalm-web.csproj", "{35BB4630-01F5-40DD-978D-6E990266880F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "application-insights-albinalm-calculatefunction", "application-insights-albinalm-calculatefunction\application-insights-albinalm-calculatefunction.csproj", "{082974B9-0070-4A15-8CAC-975BF1632221}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35BB4630-01F5-40DD-978D-6E990266880F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BB4630-01F5-40DD-978D-6E990266880F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BB4630-01F5-40DD-978D-6E990266880F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BB4630-01F5-40DD-978D-6E990266880F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082974B9-0070-4A15-8CAC-975BF1632221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082974B9-0070-4A15-8CAC-975BF1632221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082974B9-0070-4A15-8CAC-975BF1632221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082974B9-0070-4A15-8CAC-975BF1632221}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66E4E945-D6D9-4FC6-832F-9B074EA6768B}
+	EndGlobalSection
+EndGlobal

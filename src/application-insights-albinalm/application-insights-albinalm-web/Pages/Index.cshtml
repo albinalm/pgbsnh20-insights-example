@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <div id="CalculatorBox">
+        <label id="lbl_result">Result: </label><br />
+        <input type="text" id="txt_input" name="input" value="Math input"><br>
+
+        <button id="btn_calculate" onclick="calculate()">Calculate</button><br /><br />
+
+    </div>
+</div>
