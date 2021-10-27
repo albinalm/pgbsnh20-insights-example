@@ -24,7 +24,7 @@ namespace application_insights_albinalm_calculatefunction
     //    }
         [FunctionName("Calculate")]
         public async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
             ILogger log)
         {
             string input = req.Query["input"];
