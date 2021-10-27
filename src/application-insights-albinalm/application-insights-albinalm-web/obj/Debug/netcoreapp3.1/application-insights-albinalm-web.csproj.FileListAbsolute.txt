@@ -351,3 +351,6 @@ H:\Projekt\NET\pgbsnh20-insights-example\src\application-insights-albinalm\appli
 H:\Projekt\NET\pgbsnh20-insights-example\src\application-insights-albinalm\application-insights-albinalm-web\obj\Debug\netcoreapp3.1\application-insights-albinalm-web.dll
 H:\Projekt\NET\pgbsnh20-insights-example\src\application-insights-albinalm\application-insights-albinalm-web\obj\Debug\netcoreapp3.1\application-insights-albinalm-web.pdb
 H:\Projekt\NET\pgbsnh20-insights-example\src\application-insights-albinalm\application-insights-albinalm-web\obj\Debug\netcoreapp3.1\application-insights-albinalm-web.genruntimeconfig.cache
+H:\Projekt\NET\pgbsnh20-insights-example\src\application-insights-albinalm\application-insights-albinalm-web\bin\Debug\netcoreapp3.1\libman.json
+H:\Projekt\NET\pgbsnh20-insights-example\src\application-insights-albinalm\application-insights-albinalm-web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+H:\Projekt\NET\pgbsnh20-insights-example\src\application-insights-albinalm\application-insights-albinalm-web\obj\Debug\netcoreapp3.1\application-insights-albinalm-web.csproj.AssemblyReference.cache
