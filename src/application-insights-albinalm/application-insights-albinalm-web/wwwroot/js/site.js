@@ -7,7 +7,7 @@ var connection = new signalR.HubConnectionBuilder().withUrl("/calculatorHub").bu
 connection.start().then(function () {
     console.log("Connected!");
 });
-function Calculate() {
+function calculate() {
     connection.invoke("Calculate", document.getElementById("txt_input").value);
 }
 connection.on("OnCalculationCompleted", function (calculationResult) {
