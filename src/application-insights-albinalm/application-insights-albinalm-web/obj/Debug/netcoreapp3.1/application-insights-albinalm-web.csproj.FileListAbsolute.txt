@@ -323,7 +323,6 @@ H:\Projekt\NET\pgbsnh20-insights-example\src\application-insights-albinalm\appli
 H:\Projekt\NET\pgbsnh20-insights-example\src\application-insights-albinalm\application-insights-albinalm-web\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
 H:\Projekt\NET\pgbsnh20-insights-example\src\application-insights-albinalm\application-insights-albinalm-web\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 H:\Projekt\NET\pgbsnh20-insights-example\src\application-insights-albinalm\application-insights-albinalm-web\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-H:\Projekt\NET\pgbsnh20-insights-example\src\application-insights-albinalm\application-insights-albinalm-web\obj\Debug\netcoreapp3.1\application-insights-albinalm-web.csproj.AssemblyReference.cache
 H:\Projekt\NET\pgbsnh20-insights-example\src\application-insights-albinalm\application-insights-albinalm-web\obj\Debug\netcoreapp3.1\application-insights-albinalm-web.GeneratedMSBuildEditorConfig.editorconfig
 H:\Projekt\NET\pgbsnh20-insights-example\src\application-insights-albinalm\application-insights-albinalm-web\obj\Debug\netcoreapp3.1\application-insights-albinalm-web.AssemblyInfoInputs.cache
 H:\Projekt\NET\pgbsnh20-insights-example\src\application-insights-albinalm\application-insights-albinalm-web\obj\Debug\netcoreapp3.1\application-insights-albinalm-web.AssemblyInfo.cs

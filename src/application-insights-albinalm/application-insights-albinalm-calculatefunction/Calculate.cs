@@ -17,11 +17,11 @@ namespace application_insights_albinalm_calculatefunction
    
     public class Calculate
     {
-        private readonly TelemetryClient telemetryClient;
-        public Calculate(TelemetryConfiguration configuration)
-        {
-            telemetryClient = new TelemetryClient(configuration);
-        }
+       // private readonly TelemetryClient telemetryClient;
+     //   public Calculate(TelemetryConfiguration configuration)
+     //   {
+          //  telemetryClient = new TelemetryClient(configuration);
+    //    }
         [FunctionName("Calculate")]
         public async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
@@ -44,7 +44,7 @@ namespace application_insights_albinalm_calculatefunction
                 catch (Exception ex)
                 {
                     log.LogInformation("The operation failed with the following message: " + ex.Message);
-                    telemetryClient.TrackException(ex);
+                   // telemetryClient.TrackException(ex);
                     return new BadRequestObjectResult(ex.Message);
 
                 }
@@ -53,7 +53,7 @@ namespace application_insights_albinalm_calculatefunction
             {
                 log.LogInformation("Process failed. Input data was incorrect");
                
-                telemetryClient.TrackTrace("Input data was is incorrect format. Make sure you have an input and accountId parameter.");
+               // telemetryClient.TrackTrace("Input data was is incorrect format. Make sure you have an input and accountId parameter.");
                 return new BadRequestObjectResult("Input data was is incorrect format. Make sure you have an input and accountId parameter.");
             }
         }

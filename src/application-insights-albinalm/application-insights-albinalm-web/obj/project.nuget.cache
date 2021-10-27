@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B+giV/ZNIxZhEu0cQinjvvZyDewJ2lQQUsnTjHiuye2P17/u0ZeFup4B7hv6gduex7fbS7+fExffw3eytRVfPg==",
+  "dgSpecHash": "lDglbIleVbyraTwsXbH5lFsj94oM/LGT8Vemm8mi1GMrI4HosH1WGNXoyzE55lvCGnKXtVkN0QYqEUHx9SqOXQ==",
   "success": true,
   "projectFilePath": "H:\\Projekt\\NET\\pgbsnh20-insights-example\\src\\application-insights-albinalm\\application-insights-albinalm-web\\application-insights-albinalm-web.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\almal\\.nuget\\packages\\microsoft.codeanalysis.razor\\3.1.18\\microsoft.codeanalysis.razor.3.1.18.nupkg.sha512",
     "C:\\Users\\almal\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.1.6\\microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
     "C:\\Users\\almal\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\almal\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\almal\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
     "C:\\Users\\almal\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\almal\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
