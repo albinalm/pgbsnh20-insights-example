@@ -15,7 +15,7 @@ namespace application_insights_albinalm_web.Hubs
         public async Task Calculate(string mathformula)
         {
             Debug.WriteLine("Calculating!");
-            var httpWebRequest = (HttpWebRequest)WebRequest.Create("https://moln-tenta-albinalm-function-calculate.azurewebsites.net/api/Calculate");
+            var httpWebRequest = (HttpWebRequest)WebRequest.Create("https://application-insights-albinalm-calculatefunction2021102715450.azurewebsites.net/api/Calculate");
             httpWebRequest.ContentType = "application/json";
             httpWebRequest.Method = "POST";
             string result;
