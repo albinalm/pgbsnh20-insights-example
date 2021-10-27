@@ -43,7 +43,8 @@ namespace application_insights_albinalm_calculatefunction
                 }
                 catch (Exception ex)
                 {
-                    log.LogInformation("The operation failed with the following message: " + ex.Message);
+                  
+                    log.LogError("The operation failed with the following message: " + ex.Message);
                    // telemetryClient.TrackException(ex);
                     return new BadRequestObjectResult(ex.Message);
 
@@ -51,7 +52,7 @@ namespace application_insights_albinalm_calculatefunction
             }
             else
             {
-                log.LogInformation("Process failed. Input data was incorrect");
+                log.LogError("Process failed. Input data was incorrect");
                
                // telemetryClient.TrackTrace("Input data was is incorrect format. Make sure you have an input and accountId parameter.");
                 return new BadRequestObjectResult("Input data was is incorrect format. Make sure you have an input and accountId parameter.");
