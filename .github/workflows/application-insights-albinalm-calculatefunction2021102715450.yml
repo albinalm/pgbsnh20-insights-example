@@ -5,10 +5,10 @@ on:
     - main
 env:
   AZURE_FUNCTIONAPP_NAME: application-insights-albinalm-calculatefunction2021102715450
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: src/application-insights-albinalm-calculatefunction/published
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: src/application-insights-albinalm/application-insights-albinalm-calculatefunction/published
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 3.1.x
-  WORKING_DIRECTORY: src/application-insights-albinalm-calculatefunction
+  WORKING_DIRECTORY: src/application-insights-albinalm/application-insights-albinalm-calculatefunction
   DOTNET_CORE_VERSION_INPROC: ''
 jobs:
   build-and-deploy:
